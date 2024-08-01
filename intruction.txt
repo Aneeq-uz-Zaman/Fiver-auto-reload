@@ -1,1 +1,1 @@
-hello
+It is the GUI bot that reload fiverr website after random time between 2-15 min. This code works only when the fiverr website is open on pc or laptop and the main page of fiverr is show on pc screen
