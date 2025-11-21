@@ -1,7 +1,7 @@
 import pyautogui
 import random
 import time
-
+print("Program Running...........")
 # Function to simulate pressing Ctrl+R
 def press_ctrl_r():
     pyautogui.hotkey('ctrl', 'r')
@@ -16,7 +16,7 @@ def click_image(image):
 # Main program
 while True:
     # Generate a random interval between 160 and 1000 seconds
-    interval = random.randint(160,1000)
+    interval = random.randint(160,900)
     time.sleep(interval)
     status=click_image("Fv.PNG")
     if status:
